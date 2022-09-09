@@ -1,0 +1,22 @@
+{
+  "name": "about-humility",
+  "version": "0.1.0",
+  "description": "谦逊的使用指南",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vitepress dev",
+    "build": "vitepress build"
+  },
+  "keywords": [
+    "humility",
+    "humble",
+    "谦逊",
+    "陈成福"
+  ],
+  "author": "humility",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.13",
+    "vue": "^3.2.39"
+  }
+}
