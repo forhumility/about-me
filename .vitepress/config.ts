@@ -1,7 +1,7 @@
 /**
  * @Author       : Humility
  * @Date         : 2022-09-09 10:11:20
- * @LastEditTime : 2022-09-09 17:24:44
+ * @LastEditTime : 2022-09-10 10:42:16
  * @LastEditors  : Humility
  * @FilePath     : \about-me\.vitepress\config.ts
  * @Description  : 配置文件
@@ -20,7 +20,9 @@ export default defineConfig({
   themeConfig: {
     logo: "assets/images/logo.png",
     siteTitle: "Humility",
-    socialLinks: [{ icon: "github", link: "https://github.com/forhumility" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/forhumility/about-me" },
+    ],
     footer: {
       message: "桂ICP备19010714号",
       copyright: "Copyright © 2022 Humility",
