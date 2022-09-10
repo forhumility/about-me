@@ -4,7 +4,8 @@
   "description": "谦逊的使用指南",
   "main": "index.js",
   "scripts": {
-    "serve": "vitepress dev",
+    "dev": "vitepress dev --host",
+    "serve": "vitepress serve",
     "build": "vitepress build"
   },
   "keywords": [
