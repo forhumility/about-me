@@ -12,7 +12,7 @@ titleTemplate: 谦逊
 - 🎂 生日：1996-07-22
 - ☎️ 电话：18107720722
 - 📧 邮箱：for_humility@qq.com
-- 💖 爱好：代码/游戏/电影
+- 🎓 学历：本科/工学学士
 
 <img src="../assets/images/logo.png" style="
 position: absolute;
@@ -50,3 +50,11 @@ top: 72px;">
 - 🗃️ 物业管理系统 ⚙️ Vue/JeecgBoot/Axios/AntDesign/UniApp
 
 项目详情请移步至[案例](/example/)
+
+## 其他
+
+- 🏃 健康情况：良好
+- 📏 身高：165cm
+- 💬 语言：普通话(二乙)/英语(一般)/客家话(母语)/桂柳话(流利)
+- 💖 兴趣爱好：编程/游戏/电影/推理
+- 💭 自我评价：活泼开朗，喜欢研究，有较强自我调节能力。
