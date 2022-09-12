@@ -1,7 +1,7 @@
 /**
  * @Author       : Humility
  * @Date         : 2022-09-09 10:11:20
- * @LastEditTime : 2022-09-10 10:42:16
+ * @LastEditTime : 2022-09-12 15:00:48
  * @LastEditors  : Humility
  * @FilePath     : \about-me\.vitepress\config.ts
  * @Description  : 配置文件
@@ -23,6 +23,43 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/forhumility/about-me" },
     ],
+    nav: [
+      {
+        text: "指引",
+        link: "/guide/",
+        activeMatch: "/guide/",
+      },
+      {
+        text: "案例",
+        link: "/example/",
+        activeMatch: "/example/",
+      },
+    ],
+    sidebar: {
+      "/guide/": [
+        {
+          text: "指引",
+          items: [
+            { text: "简介", link: "/guide/" },
+            { text: "准备", link: "/guide/ready.md" },
+            { text: "技能", link: "/guide/skill.md" },
+          ],
+        },
+      ],
+      "/example/": [
+        {
+          text: "工作经历",
+          items: [
+            { text: "项目", link: "/example/" },
+            { text: "职务", link: "/example/" },
+          ],
+        },
+        {
+          text: "个人作品",
+          items: [{ text: "项目介绍", link: "/example/personal.md" }],
+        },
+      ],
+    },
     footer: {
       message: "桂ICP备19010714号",
       copyright: "Copyright © 2022 Humility",
