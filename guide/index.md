@@ -13,8 +13,10 @@ titleTemplate: 谦逊
 - ☎️ 电话：18107720722
 - 📧 邮箱：for_humility@qq.com
 - 🎓 学历：本科/工学学士
+- 🏡 籍贯：广西 柳州
+- 🗺️ 现居地：广西 南宁
 
-<img src="../assets/images/logo.png" style="
+<img src="../assets/images/logo.png" alt="谦逊的头像" style="
 position: absolute;
 right: 0;
 top: 72px;">
@@ -57,4 +59,4 @@ top: 72px;">
 - 📏 身高：165cm
 - 💬 语言：普通话(二乙)/英语(一般)/客家话(母语)/桂柳话(流利)
 - 💖 兴趣爱好：编程/游戏/电影/推理
-- 💭 自我评价：活泼开朗，喜欢研究，有较强自我调节能力。
+- 💭 自我评价：活泼开朗，喜欢研究，责任心强。
