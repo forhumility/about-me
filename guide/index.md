@@ -60,7 +60,7 @@ top: 72px;">
   - ⚙️ Vue/Ruoyi/Axios/ElementUI/UniApp
   - 👨‍🔧 前期可行性的技术调研工作；分解项目任务，通过禅道为团队成员分配任务；该系统进度模拟模块的开发(根据任务的计划和对应的进度模拟该任务生命周期，用不同的颜色和透明度表现按时开始/延期开始/按时结束/延期结束等状态)
 - 🗃️ [物业管理系统](http://wuye.newzoo.xyz/)
-  - ⚙️ Vue/JeecgBoot/Axios/AntDesign/UniApp
+  - ⚙️ Vue/JeecgBoot/Axios/AntDesign/UniApp/Docker
   - 👨‍🔧 配合产品经理与客户交流沟通需求；和研发团体分析功能点的技术可行性和实现方案；分解任务/制定计划/分配工作/跟踪进度。
 
 项目详情请移步至[案例](/example/)
