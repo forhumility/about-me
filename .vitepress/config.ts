@@ -1,7 +1,7 @@
 /**
  * @Author       : Humility
  * @Date         : 2022-09-09 10:11:20
- * @LastEditTime : 2022-09-12 15:00:48
+ * @LastEditTime : 2022-09-15 17:32:39
  * @LastEditors  : Humility
  * @FilePath     : \about-me\.vitepress\config.ts
  * @Description  : 配置文件
@@ -50,13 +50,13 @@ export default defineConfig({
         {
           text: "工作经历",
           items: [
-            { text: "项目", link: "/example/" },
-            { text: "职务", link: "/example/" },
+            { text: "参与项目", link: "/example/" },
+            { text: "工作职责", link: "/example/duty.md" },
           ],
         },
         {
           text: "个人作品",
-          items: [{ text: "项目介绍", link: "/example/personal.md" }],
+          items: [{ text: "项目概览", link: "/example/personal.md" }],
         },
       ],
     },
