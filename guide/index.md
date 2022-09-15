@@ -16,7 +16,7 @@ titleTemplate: 谦逊
 - 🏡 籍贯：广西 柳州
 - 🗺️ 现居地：广西 南宁
 
-<img src="../assets/images/logo.png" alt="谦逊的头像" style="
+<img src="/assets/images/logo.png" alt="谦逊的头像" style="
 position: absolute;
 right: 0;
 top: 72px;">
