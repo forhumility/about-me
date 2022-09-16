@@ -1,6 +1,6 @@
 ---
 layout: doc
 
-title: 技能
+title: 职责
 titleTemplate: 谦逊
 ---
