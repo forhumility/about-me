@@ -36,8 +36,9 @@ titleTemplate: 谦逊
 - C#
 - Cocos
 
-## 新媒体
+## 艺术创作
 
-- Photoshop
+- PhotoShop
 - PR/AE
 - OBS
+- PPT
