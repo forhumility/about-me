@@ -9,6 +9,8 @@ titleTemplate: 谦逊
 
 ### 智能楼宇可视化
 
+<iframe src="/assets/media/building.mp4"></iframe>
+
 ### 智慧园区可视化
 
 ### 三维建模监测系统
