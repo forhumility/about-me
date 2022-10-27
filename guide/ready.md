@@ -16,4 +16,4 @@ titleTemplate: 谦逊
 ## 邀请面试
 
 - ✉️ 短信发送至 18107720722
-- 📧 邮件发送至 for_humility@foxmail.com
+- 📧 邮件发送至 <for_humility@foxmail.com>
