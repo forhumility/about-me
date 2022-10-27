@@ -39,7 +39,7 @@ titleTemplate: 谦逊
 
 ### 三维建模监测系统
 
-![三维建模监测系统](/assets/images/prj_jk3d_01.png "三维建模监测系统")
+![三维建模监测系统](/assets/images/prj_gis_01.png "三维建模监测系统")
 
 使用无人机航拍高速公路，通过倾斜摄影建模，在 web 端实现对模型的测量（长度、高度、坡度、面积、体积等）工作。主要用到 Vue、ElementUI、WebGIS（CesiumJS）、Nginx 等技术。
 
