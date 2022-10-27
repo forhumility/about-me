@@ -17,6 +17,8 @@ titleTemplate: 谦逊
 
 使用 3DMax 对建筑模型进行建模，通过 Unity3D 编写 C#交互脚本，把 Unity3D 导出的 WebGL 包集成到 Vue 中，结合后台数据使得显示与模型实时同步。用到 Axios、Echarts、FlvJS 等技术。
 
+> <a href="/assets/media/building.mp4" target="_blank">查看演示视频</a>
+
 - Unity 项目的搭建及 C#脚本编写；
 - 前端项目的搭建及 3D 交互接口编写；
 - GraphQL（Apollo ）集成、MQ（StompJS ）集成；
@@ -30,6 +32,8 @@ titleTemplate: 谦逊
 
 与广西交科集团合作开发，构建园区智能可视化管理平台。集成监控、门禁、照明、安防、机房、能耗、消防、环境、会议室管理系统，实现了园区的楼宇、建筑、室内、设备的逐级可视。
 
+> <a href="/assets/media/park.mp4" target="_blank">查看演示视频</a>
+
 - Unity 项目的搭建及 C#脚本编写；
 - 前端项目的搭建及 3D 交互接口编写；
 - 集成 MQ（StompJS ）实现实时数据的对接；
@@ -42,6 +46,8 @@ titleTemplate: 谦逊
 ![三维建模监测系统](/assets/images/prj_gis_01.png "三维建模监测系统")
 
 使用无人机航拍高速公路，通过倾斜摄影建模，在 web 端实现对模型的测量（长度、高度、坡度、面积、体积等）工作。主要用到 Vue、ElementUI、WebGIS（CesiumJS）、Nginx 等技术。
+
+> <a href="/assets/media/webkit.mp4" target="_blank">查看演示视频</a>
 
 - 项目基础框架搭建及功能开发；
 - 使用 AABB 算法实现对屏幕外瓦片的剔除，提升模型加载速度。
