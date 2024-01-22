@@ -13,7 +13,9 @@ titleTemplate: 谦逊
 - TypeScript
 - NodeJS
 - Vue
-- Uniapp
+- UniApp
+- Electron
+- WebGIS
 - Echart
 - Chrome DevTools
 
@@ -42,3 +44,8 @@ titleTemplate: 谦逊
 - PR/AE
 - OBS
 - PPT
+
+## 其他
+
+- ChatGPT
+- StableDiffusion
