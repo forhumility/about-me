@@ -7,19 +7,18 @@ titleTemplate: 前端工程师
 
 hero:
   name: 陈成福
-  text: 一个练习时长两年半的前端工程师。
+  text: 一个练习时长三年半的前端工程师。
   tagline: JS/TS/Vue/Unity/C#/WebGL/WebGIS
   image:
   src: /assets/images/logo.png
   alt: Humility
-
-actions:
-  - theme: brand
-    text: 开始
-    link: /guide/
-  - theme: alt
-    text: 项目地址
-    link: https://github.com/forhumility/about-me
+  actions:
+    - theme: brand
+      text: 开始
+      link: /guide/
+    - theme: alt
+      text: 项目地址
+      link: https://github.com/forhumility/about-me
 
 features:
   - icon: 🦩
