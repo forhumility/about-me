@@ -15,6 +15,8 @@ titleTemplate: 谦逊
 
 ![智能楼宇可视化](/assets/images/prj_bt3d_02.png "智能楼宇可视化")
 
+> 📅 2020-07 至 2023-03
+
 使用 3DMax 对建筑模型进行建模，通过 Unity3D 编写 C#交互脚本，把 Unity3D 导出的 WebGL 包集成到 Vue 中，结合后台数据使得显示与模型实时同步。用到 Axios、Echarts、FlvJS 等技术。
 
 > <a href="/assets/media/building.mp4" target="_blank">查看演示视频</a>
@@ -29,6 +31,8 @@ titleTemplate: 谦逊
 ### 智慧园区可视化
 
 ![智慧园区可视化](/assets/images/prj_jk3d_01.png "智慧园区可视化")
+
+> 📅 2020-10 至 2022-10
 
 与广西交科集团合作开发，构建园区智能可视化管理平台。集成监控、门禁、照明、安防、机房、能耗、消防、环境、会议室管理系统，实现了园区的楼宇、建筑、室内、设备的逐级可视。
 
@@ -45,6 +49,8 @@ titleTemplate: 谦逊
 
 ![三维建模监测系统](/assets/images/prj_gis_01.png "三维建模监测系统")
 
+> 📅 2021-02 至 2022-01
+
 使用无人机航拍高速公路，通过倾斜摄影建模，在 web 端实现对模型的测量（长度、高度、坡度、面积、体积等）工作。主要用到 Vue、ElementUI、WebGIS（CesiumJS）、Nginx 等技术。
 
 > <a href="/assets/media/webkit.mp4" target="_blank">查看演示视频</a>
@@ -60,6 +66,8 @@ titleTemplate: 谦逊
 ---
 
 ![进度模拟](/assets/images/prj_bim_02.png "进度模拟")
+
+> 📅 2021-03 至 2022-10
 
 该项目是通过 BIM 模型跟踪工程的生命周期，包含模型管理、文档管理、计划管理、进度管理、计划/进度模拟等模块。项目使用使用 Vue 开发，我主要负责任务的分解、计划的制定、核心模块计划/进度模拟的开发。涉及 ElementUI、Axios、Gantt 等技术。
 
@@ -90,6 +98,8 @@ style="width:98%">
 
 </div>
 
+> 📅 2021-07 至 2023-08
+
 实现对社区管理、客户管理、房屋交付管理、仪表管理、报事报修、收费管理等功能，包含 Web 管理端、业主 APP、员工 APP。项目基于 JeecgBoot 框架开发，主要用到 Vue、AntDesign、UniApp 等技术。
 
 - 客户需求的调研及跟进；
@@ -107,6 +117,8 @@ style="width:98%">
 ---
 
 ![数据图表](/assets/images/prj_xintai_02.png "数据图表")
+
+> 📅 2023-03 至 2024-01
 
 负责监测和实时展示火箭发动机热试车过程中的数据。通过对接 UDP 组播数（10Hz），成功实现了数据的实时展示，并支持将关键参数动态添加到图表中，实现曲线图的实时绘制。这为用户提供了直观而及时的发动机性能数据。
 此外，利用 Electron、Egg.js、Sqlite、Socket.io、Vue 以及 AntDesign 等技术栈，构建了一个全面而高效的监测系统。该系统不仅能够实时展示低频数据，还能处理高频数据（1kHz、20kHz），并将其以曲线图的形式呈现，或导出为表格，以便进行更深入的分析和研究。

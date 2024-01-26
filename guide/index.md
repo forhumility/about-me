@@ -44,22 +44,32 @@ top: 72px;">
 
 ## 参与项目
 
-- 🎮 H5 小游戏[二十一克](http://game.newzoo.xyz/)
-  - ⚙️ EgretEngine/TypeScript
-  - 👨‍🔧 UI 及交互的设计与制作；制作主角的骨骼动画；使用 TS 编写部分关卡代码。
 - 🏢 [智能楼宇可视化](http://bt3d.newzoo.xyz/)
+
+  - 📅 2020-07 至 2023-03
   - ⚙️ Vue/WebGL/EChart/Graphql(Apollo)/MQ(STOMP)
   - 👨‍🔧 前端基础框架搭建；使用 Unity 编写 C#功能脚本；抽象封装部分核心组件；设计并编写 Unity(WebGL)与 Vue 通讯及交互模块；集成 Graphql(Apollo)和 MQ(STOMP)实现静态数据和实时数据的对接。
+
 - 🏙️ [智慧园区可视化](http://jk3d.newzoo.xyz/visualization)
+
+  - 📅 2020-10 至 2022-10
   - ⚙️ Vue/WebGL/EChart/Axios/MQ(STOMP)
   - 👨‍🔧 3D 部分框架搭建；在 Unity 中编写 C#交互脚本；集成 MQ(STOMP)实现数据的对接；使用 mixin 接口使 EChart 图表根据实时数据和视窗大小动态响应；分解项目任务，在禅道上分配团队成员的任务。
+
 - 🌏 三维建模监测系统
+
+  - 📅 2021-02 至 2022-01
   - ⚙️ Vue/倾斜摄影建模/Cesium/WebGIS
   - 👨‍🔧 将无人机航拍的图片通过倾斜摄影技术进行建模；将 3Dtitles 模型通过 CesiumJS 框架在浏览器中展示；集成长度、经纬度、体积、坡度等测量功能；通过 AABB 碰撞监测算法过滤视野外模型的加载，提示系统流畅性；通过域名分片技术提升模型加载速度。
+
 - 🏗️ [BIM 施工管理平台](http://bim.newzoo.xyz/)
+
+  - 📅 2021-03 至 2022-10
   - ⚙️ Vue/Ruoyi/Axios/ElementUI/UniApp
   - 👨‍🔧 前期可行性的技术调研工作；分解项目任务，通过禅道为团队成员分配任务；该系统进度模拟模块的开发(根据任务的计划和对应的进度模拟该任务生命周期，用不同的颜色和透明度表现按时开始/延期开始/按时结束/延期结束等状态)
+
 - 🗃️ [物业管理系统](http://wuye.newzoo.xyz/)
+  - 📅 2021-07 至 2023-08
   - ⚙️ Vue/JeecgBoot/Axios/AntDesign/UniApp/Docker
   - 👨‍🔧 配合产品经理与客户交流沟通需求；和研发团体分析功能点的技术可行性和实现方案；分解任务/制定计划/分配工作/跟踪进度。
 
