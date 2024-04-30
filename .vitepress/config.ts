@@ -1,14 +1,13 @@
 /**
  * @Author       : Humility
  * @Date         : 2022-09-09 10:11:20
- * @LastEditTime : 2022-09-15 17:48:47
+ * @LastEditTime : 2024-04-30 16:16:27
  * @LastEditors  : Humility
  * @FilePath     : \about-me\.vitepress\config.ts
  * @Description  : 配置文件
  */
-import { defineConfig } from "vitepress";
 
-export default defineConfig({
+export default {
   title: "Humility",
   titleTemplate: "谦逊",
   appearance: true,
@@ -65,4 +64,4 @@ export default defineConfig({
       copyright: "Copyright © 2022 Humility",
     },
   },
-});
+};
