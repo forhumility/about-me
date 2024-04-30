@@ -16,7 +16,7 @@ titleTemplate: 谦逊
 - UniApp
 - Electron
 - WebGIS
-- Echart
+- EChart
 - Chrome DevTools
 
 ## 后台
@@ -30,6 +30,7 @@ titleTemplate: 谦逊
 - Linux
 - Nginx
 - Docker
+- Jenkins
 - Gitlab-runner
 
 ## 游戏开发
@@ -45,7 +46,10 @@ titleTemplate: 谦逊
 - OBS
 - PPT
 
-## 其他
+## AI
 
+- LangChain
+- OLlama
 - ChatGPT
 - StableDiffusion
+- ComfyUI
