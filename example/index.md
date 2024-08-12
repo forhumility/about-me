@@ -26,8 +26,6 @@ titleTemplate: 谦逊
 - GraphQL（Apollo ）集成、MQ（StompJS ）集成；
 - 部分组件封装，如 3D 视图、视频播放组件。
 
-> 项目地址：[http://bt3d.newzoo.xyz/](http://bt3d.newzoo.xyz/)
-
 ### 智慧园区可视化
 
 ![智慧园区可视化](/assets/images/prj_jk3d_01.png "智慧园区可视化")
@@ -42,8 +40,6 @@ titleTemplate: 谦逊
 - 前端项目的搭建及 3D 交互接口编写；
 - 集成 MQ（StompJS ）实现实时数据的对接；
 - 部分组件封装，如 3D 视图、视频播放组件。
-
-> 项目地址：[http://jk3d.newzoo.xyz/](http://jk3d.newzoo.xyz/)
 
 ### 三维建模监测系统
 
@@ -77,8 +73,6 @@ titleTemplate: 谦逊
 - 计划/进度模拟模块开发；
 - 使用 Nginx 部署项目。
 
-> 项目地址：[http://bim.newzoo.xyz/](http://bim.newzoo.xyz/)
-
 ## 后台管理类
 
 ### 物业管理系统
@@ -105,8 +99,6 @@ style="width:98%">
 - 客户需求的调研及跟进；
 - 使用禅道管理需求、分解需求、分配任务；
 - 员工端/业主端 APP 基础框架搭建，部分功能开发。
-
-> 项目地址：[http://wuye.newzoo.xyz/](http://wuye.newzoo.xyz/)
 
 ## 桌面端应用
 

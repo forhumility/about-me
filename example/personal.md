@@ -31,19 +31,6 @@ titleTemplate: 谦逊
 - 项目地址：[https://github.com/forhumility/humble-switch-bemfa](https://github.com/forhumility/humble-switch-bemfa)
 - 使用技术：NodeJS/TypeScript/SSH2/WOL/MQTT/ChildProcess
 
-## 退休日
-
-退休日倒计时。
-
-![退休日](/assets/images/my_tuixiu_01.png "退休日")
-
----
-
-![退休日](/assets/images/my_tuixiu_02.png "退休日")
-
-- 项目地址：[http://tuixiu.newzoo.xyz/](http://tuixiu.newzoo.xyz/)
-- 使用技术：Vue3/Vite/Pinia/NaiveUI/AnimeJS
-
 ## 二十一克
 
 使用 TypeScript 编写的 H5 横版闯关游戏。
@@ -54,5 +41,4 @@ titleTemplate: 谦逊
 
 ![二十一克](/assets/images/my_game_02.png "二十一克")
 
-- 项目地址：[http://game.newzoo.xyz/](http://game.newzoo.xyz/)
 - 使用技术：EgretEngine/DragonBones/TypeScript
