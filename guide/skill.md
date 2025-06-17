@@ -16,7 +16,7 @@ titleTemplate: 谦逊
 - UniApp
 - Electron
 - WebGIS
-- EChart
+- ECharts
 - Chrome DevTools
 
 ## 后台
