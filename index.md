@@ -7,7 +7,6 @@ titleTemplate: 前端工程师
 
 hero:
   name: 陈成福
-  text: 一个练习时长4年半的前端工程师。
   tagline: JS/TS/Vue/Unity/C#/WebGL/WebGIS
   image:
   src: /assets/images/logo.png
