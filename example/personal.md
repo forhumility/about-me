@@ -7,6 +7,8 @@ titleTemplate: 谦逊
 
 ## humble-utils
 
+<span class="project-badge status-active">维护中</span>
+
 前端工具方法库，整合了日常工作中常用的工具方法。
 
 ![humble-utils](/assets/images/my_hu_01.png "humble-utils")
@@ -19,6 +21,8 @@ titleTemplate: 谦逊
 - 使用技术：TypeScript/Docsify/Jsdoc2md
 
 ## humble-switch-bemfa
+
+<span class="project-badge status-archived">已归档</span>
 
 小爱同学(miot)通过巴法云(bemfa)控制电脑开关机。
 
@@ -33,7 +37,9 @@ titleTemplate: 谦逊
 
 ## 二十一克
 
-使用 TypeScript 编写的 H5 横版闯关游戏。
+<span class="project-badge status-archived">已归档</span>
+
+使用 TypeScript 编写的 H5 横版闯关游戏，以"灵魂重量"为主题，玩家扮演灵魂在关卡中探索与闯关。
 
 ![二十一克](/assets/images/my_game_01.png "二十一克")
 
@@ -42,3 +48,4 @@ titleTemplate: 谦逊
 ![二十一克](/assets/images/my_game_02.png "二十一克")
 
 - 使用技术：EgretEngine/DragonBones/TypeScript
+- 游戏说明：基于 Egret 白鹭引擎开发，使用 DragonBones 实现骨骼动画，支持触屏与键盘双端操作；游戏包含多个关卡，角色具备跳跃、攻击、受击等完整动作状态机。

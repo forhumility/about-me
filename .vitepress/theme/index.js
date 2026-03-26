@@ -10,6 +10,7 @@
 import DefaultTheme from "vitepress/theme";
 import Layout from "./Layout.vue";
 import Home from "./components/HumbleHome.vue";
+import "./style/custom.css";
 
 export default {
   ...DefaultTheme,

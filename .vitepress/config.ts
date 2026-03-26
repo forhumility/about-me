@@ -12,6 +12,14 @@ export default {
   titleTemplate: "谦逊",
   appearance: true,
   lang: "zh-CN",
+  head: [
+    ['meta', { name: 'description', content: '陈成福 - 前端工程师个人简历，擅长 Vue/WebGL/Unity3D/WebGIS，5年以上开发经验' }],
+    ['meta', { property: 'og:title', content: 'Humility - 前端工程师' }],
+    ['meta', { property: 'og:description', content: '陈成福的个人使用手册，前端工程师，擅长 Vue、WebGL、Unity3D、WebGIS' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { name: 'keywords', content: '前端工程师,Vue,WebGL,Unity3D,WebGIS,TypeScript,简历,陈成福' }],
+    ['meta', { name: 'author', content: '陈成福' }],
+  ],
   lastUpdated: true,
   markdown: {
     lineNumbers: true,

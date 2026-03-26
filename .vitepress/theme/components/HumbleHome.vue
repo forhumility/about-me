@@ -1,74 +1,113 @@
 <!--
  * @Author       : Humility
- * @Date         : 2024-05-15
- * @Description  : 自定义首页组件
+ * @LastEditTime : 2026-03-26
+ * @Description  : 首页 hero 打字动效 tagline（注入 home-hero-info 插槽）
 -->
 <script setup>
-import { computed } from "vue";
-import { useData } from "vitepress";
-import VPHomeHero from "vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import VPHomeFeatures from "vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { computed, ref, onMounted, onUnmounted } from 'vue'
+import { useData } from 'vitepress'
 
-const { frontmatter } = useData();
+const { frontmatter } = useData()
 
-// 计算工作年限
+// ── 工作年限计算 ──────────────────────────────────────────────
 const workYears = computed(() => {
-  // 从2020年7月开始计算
-  const startDate = new Date(2020, 6); // 注意：月份是从0开始的，所以6代表7月
-  const currentDate = new Date();
+  const startDate = new Date(2020, 6) // 2020-07
+  const currentDate = new Date()
 
-  // 计算年数差异
-  let years = currentDate.getFullYear() - startDate.getFullYear();
+  let years = currentDate.getFullYear() - startDate.getFullYear()
+  let monthDiff = currentDate.getMonth() - startDate.getMonth()
 
-  // 计算月份差异
-  let monthDiff = currentDate.getMonth() - startDate.getMonth();
-
-  // 调整年数和获取额外月份
   if (monthDiff < 0) {
-    years--;
-    monthDiff += 12;
+    years--
+    monthDiff += 12
   }
 
-  // 根据月份差异确定后缀
-  let suffix = "";
-  if (monthDiff === 0) {
-    // 正好满年
-    suffix = "";
-  } else if (monthDiff < 6) {
-    // 小于6个月
-    suffix = "+";
-  } else {
-    // 大于等于6个月
-    suffix = "半";
-  }
+  let suffix = ''
+  if (monthDiff >= 6) suffix = '半'
+  else if (monthDiff > 0) suffix = '+'
 
-  return years + suffix;
-});
+  return years + suffix
+})
 
-// 动态生成的 hero 文本
-const heroText = computed(() => {
-  return `一个练习时长${workYears.value}年的前端工程师。`;
-});
+// ── 打字动效 ──────────────────────────────────────────────────
+const displayText = ref('')
+const isTypingDone = ref(false)
+let typingTimer = null
+
+onMounted(() => {
+  const fullText = `一个练习时长${workYears.value}年的前端工程师。`
+  let i = 0
+  typingTimer = setInterval(() => {
+    if (i < fullText.length) {
+      displayText.value += fullText[i]
+      i++
+    } else {
+      isTypingDone.value = true
+      clearInterval(typingTimer)
+    }
+  }, 80)
+})
+
+onUnmounted(() => {
+  if (typingTimer) clearInterval(typingTimer)
+})
 </script>
 
 <template>
-  <div class="VPHome">
-    <slot name="home-hero-before" />
-    <VPHomeHero
-      v-if="frontmatter.hero"
-      :name="frontmatter.hero.name"
-      :text="heroText"
-      :tagline="frontmatter.hero.tagline"
-      :image="frontmatter.hero.image"
-      :actions="frontmatter.hero.actions"
-    />
-    <slot name="home-hero-after" />
-
-    <slot name="home-features-before" />
-    <VPHomeFeatures
-      v-if="frontmatter.features"
-      :features="frontmatter.features"
-    />
-    <slot name="home-features-after" />
-  </div>
+  <h1 class="heading">
+    <span v-if="frontmatter.hero?.name" class="name clip" v-html="frontmatter.hero.name" />
+    <span class="text">
+      {{ displayText }}<span v-if="!isTypingDone" class="typing-cursor" />
+    </span>
+  </h1>
 </template>
+
+<style scoped>
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.name,
+.text {
+  width: fit-content;
+  max-width: 392px;
+  letter-spacing: -0.4px;
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  white-space: pre-wrap;
+}
+
+.name {
+  color: var(--vp-home-hero-name-color);
+}
+
+.clip {
+  background: var(--vp-home-hero-name-background);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: var(--vp-home-hero-name-color);
+}
+
+.text {
+  color: var(--vp-c-text-1);
+}
+
+@media (min-width: 640px) {
+  .name,
+  .text {
+    max-width: 576px;
+    line-height: 56px;
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 960px) {
+  .name,
+  .text {
+    line-height: 64px;
+    font-size: 56px;
+  }
+}
+</style>

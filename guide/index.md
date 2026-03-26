@@ -5,27 +5,32 @@ title: 简介
 titleTemplate: 谦逊
 ---
 
+<script setup>
+import InfoCard from '../.vitepress/theme/components/InfoCard.vue'
+
+const basicInfo = [
+  { icon: '👨‍💻', label: '姓名', value: '陈成福' },
+  { icon: '🧬', label: '性别', value: '男' },
+  { icon: '🎂', label: '生日', value: '1996-07-22' },
+  { icon: '☎️', label: '电话', value: '181****0722' },
+  { icon: '📧', label: '邮箱', value: 'for_humility@foxmail.com', link: 'mailto:for_humility@foxmail.com' },
+  { icon: '🎓', label: '学历', value: '本科 / 工学学士' },
+  { icon: '🏡', label: '籍贯', value: '广西 柳州' },
+  { icon: '🗺️', label: '现居地', value: '广西 南宁' },
+]
+</script>
+
 ## 基本信息
 
-- 👨‍💻 姓名：陈成福
-- 🧬 性别：男
-- 🎂 生日：1996-07-22
-- ☎️ 电话：181\*\*\*\*0722
-- 📧 邮箱：<for_humility@foxmail.com>
-- 🎓 学历：本科/工学学士
-- 🏡 籍贯：广西 柳州
-- 🗺️ 现居地：广西 南宁
+<img src="/assets/images/logo.png" alt="谦逊的头像" style="border-radius: 12px">
 
-<img src="/assets/images/logo.png" alt="谦逊的头像" style="
-position: absolute;
-right: 0;
-top: 72px;">
+<InfoCard :items="basicInfo" />
 
 ## 教育经历
 
 - 🏫 南宁职业技术学院 2015~2018 计算机应用技术
 - 🎓 南宁师范大学 2018~2020 计算机科学与技术
-- 📚 计算机组成原理/软件工程/.Net 高级语言程序设计/计算机网络/数据库原理/高等数学
+- 📚 计算机组成原理 / 软件工程 / .Net 高级语言程序设计 / 计算机网络 / 数据库原理 / 高等数学
 
 ## 荣誉证书
 
@@ -37,48 +42,23 @@ top: 72px;">
 
 ## 工作经历
 
-- 📅 2017-12 至 2018-06 🏢 开原创启(北京)有限公司 💼 海外组 👨‍💻 U3D 实习生
-- 📅 2020-07 至 2024-12 🏢 广西路盛通智能科技有限公司 💼 研发部 👨‍💻 技术总工程师
-- 📅 2020-07 至 今 🏢 广西中联博远信息技术有限公司 💼 软件部 👨‍💻 前端工程师
-
-> ⏰ 工作年限{{new Date().getYear() - 120}}年{{new Date().getMonth() > 6 ? '+' : ''}}
-
-## 参与项目
-
-- 🏢 智能楼宇可视化
-
-  - 📅 2020-07 至 2023-03
-  - ⚙️ Vue/WebGL/EChart/Graphql(Apollo)/MQ(STOMP)
-  - 👨‍🔧 前端基础框架搭建；使用 Unity 编写 C#功能脚本；抽象封装部分核心组件；设计并编写 Unity(WebGL)与 Vue 通讯及交互模块；集成 Graphql(Apollo)和 MQ(STOMP)实现静态数据和实时数据的对接。
-
-- 🏙️ 智慧园区可视化
-
-  - 📅 2020-10 至 2022-10
-  - ⚙️ Vue/WebGL/EChart/Axios/MQ(STOMP)
-  - 👨‍🔧 3D 部分框架搭建；在 Unity 中编写 C#交互脚本；集成 MQ(STOMP)实现数据的对接；使用 mixin 接口使 EChart 图表根据实时数据和视窗大小动态响应；分解项目任务，在禅道上分配团队成员的任务。
-
-- 🌏 三维建模监测系统
-
-  - 📅 2021-02 至 2022-01
-  - ⚙️ Vue/倾斜摄影建模/Cesium/WebGIS
-  - 👨‍🔧 将无人机航拍的图片通过倾斜摄影技术进行建模；将 3Dtitles 模型通过 CesiumJS 框架在浏览器中展示；集成长度、经纬度、体积、坡度等测量功能；通过 AABB 碰撞监测算法过滤视野外模型的加载，提示系统流畅性；通过域名分片技术提升模型加载速度。
-
-- 🏗️ BIM 施工管理平台
-
-  - 📅 2021-03 至 2022-10
-  - ⚙️ Vue/Ruoyi/Axios/ElementUI/UniApp
-  - 👨‍🔧 前期可行性的技术调研工作；分解项目任务，通过禅道为团队成员分配任务；该系统进度模拟模块的开发(根据任务的计划和对应的进度模拟该任务生命周期，用不同的颜色和透明度表现按时开始/延期开始/按时结束/延期结束等状态)
-
-- 🗃️ 物业管理系统
-
-  - 📅 2021-07 至 2023-08
-  - ⚙️ Vue/JeecgBoot/Axios/AntDesign/UniApp/Docker
-  - 👨‍🔧 配合产品经理与客户交流沟通需求；和研发团体分析功能点的技术可行性和实现方案；分解任务/制定计划/分配工作/跟踪进度。
-
-- 🚀 热试车测量显示软件
-  - 📅 2023-03 至 2024-01
-  - ⚙️ Electron/Egg.js/Sqlite/Socket.io/Vue/AntDesign
-  - 👨‍🔧 通过对接 UDP 组播数（10Hz），成功实现了数据的实时展示，并支持将关键参数动态添加到图表中，实现曲线图的实时绘制。这为用户提供了直观而及时的发动机性能数据。
+<div class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-date">📅 2017-12 ~ 2018-06</div>
+    <div><strong>开原创启(北京)有限公司</strong> · 海外组</div>
+    <div>💼 U3D 实习生</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">📅 2020-07 ~ 2024-12</div>
+    <div><strong>广西路盛通智能科技有限公司</strong> · 研发部</div>
+    <div>💼 技术总工程师</div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-date">📅 2025-01 ~ 至今</div>
+    <div><strong>广西中联博远信息技术有限公司</strong> · 软件部</div>
+    <div>💼 前端工程师</div>
+  </div>
+</div>
 
 > 项目详情请移步至[案例](/example/)查看
 
@@ -86,6 +66,30 @@ top: 72px;">
 
 - 🏃 健康情况：良好
 - 📏 身高：165cm
-- 💬 语言：普通话(二乙)/英语(一般)/客家话(母语)/桂柳话(流利)
-- 💖 兴趣爱好：编程/游戏/电影/推理
+- 💬 语言：普通话(二乙) / 英语(一般) / 客家话(母语) / 桂柳话(流利)
+- 💖 兴趣爱好：编程 / 游戏 / 电影 / 推理
 - 💭 自我评价：活泼开朗，喜欢研究，责任心强。
+
+---
+
+<div style="text-align: center; margin-top: 2rem;">
+  <a href="/guide/ready" class="cta-btn">📬 邀请面试</a>
+</div>
+
+<style>
+.cta-btn {
+  display: inline-block;
+  padding: 0.65rem 2rem;
+  border-radius: 8px;
+  background: var(--vp-c-brand-1);
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none !important;
+  transition: background 0.2s, transform 0.15s;
+}
+.cta-btn:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-2px);
+}
+</style>
