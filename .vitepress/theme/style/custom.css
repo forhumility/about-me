@@ -194,3 +194,8 @@
   color: var(--vp-c-text-2);
   border-color: var(--vp-c-divider);
 }
+
+/* ===== Navbar Logo 圆角 ===== */
+.VPNavBarTitle .logo {
+  border-radius: 50%;
+}

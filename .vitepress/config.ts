@@ -8,6 +8,11 @@
  */
 
 export default {
+  vite: {
+    server: {
+      port: 9933,
+    },
+  },
   title: "Humility",
   titleTemplate: "谦逊",
   appearance: true,
@@ -68,7 +73,7 @@ export default {
       ],
     },
     footer: {
-      message: "桂ICP备19010714号",
+      message: '<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">桂 ICP 备 19010714号</a>',
       copyright: "Copyright © 2022 Humility",
     },
   },

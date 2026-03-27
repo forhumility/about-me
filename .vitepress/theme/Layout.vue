@@ -7,7 +7,6 @@
 import DefaultTheme from 'vitepress/theme'
 import { useData } from 'vitepress'
 import { computed } from 'vue'
-import HumbleFooter from './components/HumbleFooter.vue'
 import HumbleHome from './components/HumbleHome.vue'
 import HumbleHomeSkills from './components/HumbleHomeSkills.vue'
 
@@ -30,11 +29,6 @@ const isHomePage = computed(() => frontmatter.value.layout === 'home')
 
     <template v-if="isHomePage" #home-features-after>
       <HumbleHomeSkills />
-    </template>
-
-    <!-- 全局底部 footer -->
-    <template #layout-bottom>
-      <HumbleFooter />
     </template>
   </Layout>
 </template>
